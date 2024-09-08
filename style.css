@@ -212,24 +212,27 @@ a{  font-size:300;
     border-radius: 0.25rem;
     
 }
+.product-content{
+    padding: 20px;
+}
 .product-box h3{
     font-size: 20px;
     margin-bottom: 10px;
-    margin-left: 20px;
+   
     font-weight: bold;
     
     
 } 
 .product-box p{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    
 
 }
 .product-box a{
     display: block;
     margin-top: 10px;
-    padding:20px ;
+    
 }
 .bottom{
     text-align: center;
@@ -534,25 +537,59 @@ margin-bottom: 50px;
 }
 .questions{
     position: relative;
-    width: 50%
+    display:flex
+    /* width: 50% */
  
 }
-.questions .container-part{
-    position: relative;
-    width: 100%;
-    height:auto ;
-}
 .questions .container-part img{
-    width: 100%;
-    height: auto;
-    
+    display: block;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+    width: 81rem;
+    height:664px ;
+    object-fit: cover;
+    margin: 7rem;
+    padding: 15px;
 }
-.questions .text{
+
+    
+
+ .text{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     font-size: 16px;
+    align-items: center;
     text-align: center;
+    top: 27%;
+    left: 20%;
+    width: 60%;
+    /* width: 100%; */
+    padding: 10px;
+    z-index: 10;
 
 }
+.text h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #032d60;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.Contact-btn{
+    width: 170px;
+    height: 46px;
+    color: white;
+    border-color: #0176d3;
+    background-color: #0176d3;
+    margin-bottom: 15px;
+}
+.text a{
+    color: #032d60;
+}
+
 .Salesforce{
     display: flex;
     margin: 7rem;
@@ -578,7 +615,7 @@ margin-bottom: 50px;
     margin-bottom: 2rem;
 }
 .Salesforce a{
-    font-size: 10px;
+    font-size: 12px;
     color: #0176d3;
     text-decoration: none;
    margin-bottom: 1rem;
@@ -598,13 +635,35 @@ margin-bottom: 50px;
 }
 
 footer{
+    
     color: white;
     display: flex;
+   
     padding: 4rem;
     background-color: #032d60;
-
+   
+    gap: 15px;
 }
-
+.content-footer{
+   
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+.content-footer div{
+    display: flex;
+   
+    /* align-items: center; */
+    gap: 20px;
+}
+.icon-globe{
+    background-color: none;
+   
+    margin-right: 10px;
+}
 
 
 
