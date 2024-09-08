@@ -578,11 +578,33 @@ margin-bottom: 50px;
     margin-bottom: 2rem;
 }
 .Salesforce a{
-    font-size: small;
+    font-size: 10px;
     color: #0176d3;
     text-decoration: none;
    margin-bottom: 1rem;
 }
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 2rem;
+}
+.social-logo{
+    font-size: 25px;
+}
+.logo-section a{
+    color: black;
+    font-size: 15px;
+}
+
+footer{
+    color: white;
+    display: flex;
+    padding: 4rem;
+    background-color: #032d60;
+
+}
+
 
 
 
